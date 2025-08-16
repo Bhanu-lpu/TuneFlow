@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import folders from "../data/folders";
 import SongCard from "../components/SongCard";
-import "../styles/album.css";
+import "../Styles/album.css";
 import { MusicContext } from "../context/MusicContext";
 
 export default function AlbumPage() {
