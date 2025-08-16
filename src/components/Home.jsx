@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import folders from "../data/folders";
 import { useNavigate, Link } from "react-router-dom";
-import "../styles/home.css";
+import "../Styles/home.css";
 import { LanguageContext } from "../context/LanguageContext";
 
 const MOVIES_PER_PAGE = 5;
