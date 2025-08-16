@@ -1,0 +1,72 @@
+/* Global Styles */
+
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+:root {
+  --primary-color: #1db954;
+  --secondary-color: #282828;
+  --hover-color: rgba(255, 255, 255, 0.1);
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.playlist-dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.playlist-dropdown {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background: #222;
+  border: 1px solid #555;
+  border-radius: 4px;
+  padding: 5px;
+  z-index: 100;
+  width: 150px;
+}
+
+.playlist-item {
+  padding: 5px 10px;
+  cursor: pointer;
+  color: white;
+}
+.playlist-item:hover {
+  background-color: #444;
+}
+
+.no-playlists-text {
+  color: #888;
+  padding: 5px 10px;
+}
